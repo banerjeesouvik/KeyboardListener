@@ -1,5 +1,5 @@
 # Keypress
-Utility component to handle keypress event within a component
+A wrapper component on `keypress.js` to handle simple keypress events in a component
 
 ## usage
 ```js
@@ -81,4 +81,14 @@ usage:
   ....
 
   export default withKeypress(Component)
+```
+
+## Running Example
+
+To run the example app locally, use the following commands
+
+```
+    npm i
+
+    npm start
 ```
