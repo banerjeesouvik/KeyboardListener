@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import {KeypressConsumer} from '../provider/KeypressProvider'
 
-const withKeyPress = (C) => {
+export const withKeyPress = (C) => {
     const displayName = `withKeyPress__${C.displayName}`
     class Comp extends Component{
         render() {
@@ -18,5 +18,3 @@ const withKeyPress = (C) => {
     Comp.displayName = displayName
     return Comp
 }
-
-export default withKeyPress

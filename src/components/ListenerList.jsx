@@ -1,5 +1,5 @@
 import React from 'react'
-import withKeyPress from './withKeypress'
+import { withKeyPress }  from './withKeypress'
 
 const ListenerList = ({keypressListeners}) => {
     return (
